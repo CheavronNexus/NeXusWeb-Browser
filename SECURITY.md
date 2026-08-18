@@ -18,7 +18,7 @@
 If you discover a security vulnerability in NeXusWeb:
 
 1. **Do not disclose it publicly** until it has been reviewed and addressed.
-2. Email your report directly to **security@chevronnexus.com** or open a confidential security advisory on GitHub.
+2. Email your report directly to **BlackFlagR1@hotmail.com** or open a confidential security advisory on GitHub.
 3. Include:
    - Type of issue (e.g., sandbox escape, WebRTC IP leak, privilege escalation, XSS).
    - Step-by-step instructions to reproduce the issue.
