@@ -1,0 +1,62 @@
+# NeXusWeb — Git Ignore Rules
+
+# Dependencies
+node_modules/
+package-lock.json.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Production & Build Outputs
+dist/
+dist-electron/
+build/
+out/
+bin/
+obj/
+app-payload.zip
+
+# Auto-Generated Assets & Cache
+scripts/LogoData.cs
+.vite/
+.cache/
+.parcel-cache/
+
+# Code Signing & Credentials (Security Best Practice)
+*.pfx
+*.p12
+*.cer
+*.crt
+*.key
+*.pem
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.local
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+
+# IDE & Editor Specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+*.userosct
+*.sln.docstates
+
+# Diagnostic & Crash Dumps
+*.log
+*.dmp
+Crashpad/

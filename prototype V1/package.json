@@ -1,0 +1,74 @@
+{
+  "name": "nexusweb",
+  "version": "1.0.0",
+  "description": "NeXusWeb - Local Developer Browser",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && electron .\"",
+    "build": "vite build && electron-builder --win --x64",
+    "build:vite": "vite build",
+    "package": "electron-builder --win --x64",
+    "preview": "vite preview",
+    "electron": "electron ."
+  },
+  "keywords": ["electron", "browser", "localhost", "developer"],
+  "author": "NeXusWeb",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "concurrently": "^8.2.2",
+    "electron": "^28.3.3",
+    "electron-builder": "^24.9.1",
+    "vite": "^5.0.8",
+    "wait-on": "^7.2.0"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/addon-web-links": "^0.11.0",
+    "@xterm/xterm": "^5.3.0",
+    "node-pty": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "build": {
+    "appId": "com.nexusweb.browser",
+    "productName": "NeXusWeb",
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "extraResources": [],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": ["x64"]
+        },
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "src/assets/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "NeXusWeb"
+    },
+    "portable": {
+      "artifactName": "NeXusWeb-Portable-${version}.exe"
+    },
+    "asar": true,
+    "asarUnpack": [
+      "node_modules/node-pty/**/*"
+    ]
+  }
+}
