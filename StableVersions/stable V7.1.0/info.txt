@@ -15,7 +15,7 @@ Website         : https://www.ChevronNexus.com
 ================================================================================
 
 --------------------------------------------------------------------------------
-1. 🎨 UPGRADE UI & DESIGN — APPLICATION DESIGN UPGRADED
+1. UPGRADE UI & DESIGN — APPLICATION DESIGN UPGRADED
 --------------------------------------------------------------------------------
 • Redesigned Frosted Glassmorphism 3-Dot Menu:
   - Deep blur aesthetics (backdrop-filter: blur(28px) saturate(190%)).
@@ -30,13 +30,13 @@ Website         : https://www.ChevronNexus.com
   - Dual Split View: Run two webpages or apps side-by-side with a draggable center splitter (10% to 90%), percentage badge, and double-click 50/50 reset.
   - Dynamic Side Drawers & ScratchPad: Drag drawer left border (115px / 3cm to 880px) while the live web viewport automatically scales simultaneously with zero gap.
 • Upgraded About Page & Philosophy Center:
-  - Rich ✨ Key Feature Highlights matrix detailing all core capabilities.
+  - Rich Key Feature Highlights matrix detailing all core capabilities.
   - Dual Emblem Brand Identity: Chevron Nexus Emblem + NeXusWeb Emblem.
   - Core Philosophy Pillars: Local-First, True Privacy, and One-Time Buy.
   - In-Place Setup & Delta Upgrader Center.
 
 --------------------------------------------------------------------------------
-2. 🛡️ NATIVE HIGH-SPEED VPN & PRIVACY TUNNEL ENGINE
+2.NATIVE HIGH-SPEED VPN & PRIVACY TUNNEL ENGINE
 --------------------------------------------------------------------------------
 • High-Speed Regional Egress Nodes:
   - 🇳🇱 Netherlands (NL)   : nl126.servefaststatic.work:443 (HTTPS/HTTP)
@@ -51,16 +51,16 @@ Website         : https://www.ChevronNexus.com
 • Cleaned Control Center: Removed external promo cards for a pure native tunnel experience.
 
 --------------------------------------------------------------------------------
-3. 🕵️ PRIVATE DEN SANDBOX & DEDICATED VPN INTEGRATION
+3.PRIVATE DEN SANDBOX & DEDICATED VPN INTEGRATION
 --------------------------------------------------------------------------------
-• Dedicated [ 🛡️ VPN ] toolbar button in Private Den with live region indicator (e.g. "VPN: NL") and active green glow.
+• Dedicated [ VPN ] toolbar button in Private Den with live region indicator (e.g. "VPN: NL") and active green glow.
 • Streamlined Quick Tools Drawer: Opens directly to the Private Den VPN view with RAM sandbox info and 6 regional privacy tunnels.
 • Ephemeral in-memory session (partition: memory) proxy routing so all Private Den traffic routes through the selected VPN node.
 • Auto-wiping sandbox: Clears 100% of cookies, cache, local storage, indexedDB, and history on tab/window close.
 • Non-proxied WebRTC UDP disabled by default to eliminate real IP leaks.
 
 --------------------------------------------------------------------------------
-4. ⚡ DEVELOPER TOOLS & WORKBENCHES SUITE
+4. DEVELOPER TOOLS & WORKBENCHES SUITE
 --------------------------------------------------------------------------------
 • REST & GraphQL API Workbench: Native HTTP/HTTPS client with custom headers, JSON payload beautification, and .env interpolation.
 • Port Manager & Localhost Scanner: Background daemon auto-detects active dev servers (Vite, Next.js, Django, Flask, Express) with 1-click PID killer.
@@ -70,14 +70,14 @@ Website         : https://www.ChevronNexus.com
 • Chrome Web Extensions Support: Install Chrome extensions directly from the Chrome Web Store or unpack local CRX extensions.
 
 --------------------------------------------------------------------------------
-5. ℹ️ CORE PHILOSOPHY & LOCAL-FIRST FOUNDATION
+5. CORE PHILOSOPHY & LOCAL-FIRST FOUNDATION
 --------------------------------------------------------------------------------
 • Local-First Architecture: Software runs directly on your computer and local network, fully operational without cloud dependencies.
 • True Privacy: End-to-end encryption on physical devices with zero data harvesting, tracking telemetry, or cloud storage.
 • One-Time Buy Ownership: No recurring subscriptions; full ownership of the software with perpetual major version features.
 
 --------------------------------------------------------------------------------
-6. 🔒 SECURITY, CODE SIGNING & MULTI-PLATFORM PACKAGING
+6. SECURITY, CODE SIGNING & MULTI-PLATFORM PACKAGING
 --------------------------------------------------------------------------------
 • Authenticode Digital Signing: Signed with SHA-256 and RFC 3161 timestamping (DigiCert) for NeXusWeb-Setup-v7.0.0.exe, setup.exe, NeXusWeb-V7.exe, and all runtime DLLs.
 • Mark-of-the-Web (Zone.Identifier) Removal: Ensures seamless launch on Windows without SmartScreen blocking.
