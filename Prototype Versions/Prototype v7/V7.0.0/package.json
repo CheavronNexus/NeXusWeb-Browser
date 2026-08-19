@@ -1,0 +1,33 @@
+{
+  "name": "nexusweb-v7",
+  "version": "7.0.0",
+  "description": "NeXusWeb V7 by Chevron Nexus Software - Privacy-First Personal Infrastructure with Setup & Updater",
+  "author": "Chevron Nexus Software",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev:vite": "vite",
+    "build:vite": "vite build",
+    "dev": "vite build && electron .",
+    "start": "electron .",
+    "package": "vite build && electron-packager . \"NeXusWeb-V7\" --platform=win32 --arch=x64 --icon=\"src/assets/app.ico\" --electron-version=28.3.3 --out=\"dist-electron\" --overwrite --asar --ignore=\"dist-electron|dist-linux|\\.git|\\.vite\"",
+    "build:setup": "node scripts/buildSetup.js",
+    "package:linux": "node scripts/buildLinux.js",
+    "build:linux": "node scripts/buildLinux.js"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/addon-web-links": "^0.11.0",
+    "@xterm/xterm": "^5.3.0",
+    "adm-zip": "^0.6.0",
+    "lucide-react": "^0.344.0",
+    "node-pty": "^1.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "electron": "28.3.3",
+    "electron-packager": "^17.1.2",
+    "vite": "^5.1.4"
+  }
+}
