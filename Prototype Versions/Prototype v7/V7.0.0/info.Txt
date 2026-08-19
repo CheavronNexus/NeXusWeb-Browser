@@ -4,10 +4,10 @@ Hi I'm BhaskarPatwardhan,
 
 
 ================================================================================
-   CHEVRON NEXUS SOFTWARE — NEXUSWEB V7.1.0 PRODUCTION RELEASE
+   CHEVRON NEXUS SOFTWARE — NEXUSWEB V7.0.0 PRODUCTION RELEASE
    COMPLETE UPGRADE & CHANGELOG MANIFEST
 ================================================================================
-Release Version : NeXusWeb v7.1.0 (Core Engine v7.1.1)
+Release Version : NeXusWeb v7.0.0 (Core Engine v7.1.1)
 Platform Support: Windows 10/11 (x64) & Linux (x64)
 Architecture    : Local-First Decentralized Web Infrastructure & Developer Browser
 Publisher       : Chevron Nexus Software (Authenticode Signed & RFC 3161 Timestamped)
