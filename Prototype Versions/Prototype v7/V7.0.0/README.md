@@ -1,4 +1,4 @@
-# 🌐 NeXusWeb Browser V6.5 (v6.5.0)
+# 🌐 NeXusWeb Browser V7.0 (v7.0.0)
 ### **Chevron Nexus Software — [www.ChevronNexus.com](https://www.ChevronNexus.com)**
 
 This directory contains the production codebase for **NeXusWeb V6.5** (`v6.5.0`).
