@@ -1,0 +1,24 @@
+[Desktop Entry]
+Version=1.0
+Name=NeXusWeb
+GenericName=Privacy & Developer Web Browser
+Comment=Privacy-First Personal Infrastructure & Developer Workstation Browser
+Exec=nexusweb %U
+Icon=nexusweb
+Terminal=false
+Type=Application
+Categories=Network;WebBrowser;Development;Security;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;x-scheme-handler/http;x-scheme-handler/https;
+StartupWMClass=nexusweb
+Keywords=browser;developer;privacy;vpn;terminal;localhost;
+Actions=NewWindow;NewPrivateDen;
+
+[Desktop Action NewWindow]
+Name=New Window
+Exec=nexusweb --new-window
+TargetEnvironment=Unity
+
+[Desktop Action NewPrivateDen]
+Name=New Private Den (RAM Sandbox)
+Exec=nexusweb --private-den
+TargetEnvironment=Unity
