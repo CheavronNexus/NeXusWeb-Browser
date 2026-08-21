@@ -1178,3 +1178,22 @@ export default function App() {
           onCreatePrivateDen={handleCreatePrivateDen}
           onOpenContainerTab={(container, url) => {
             handleNewTab(url)
+            addToast(`Opened in ${container} Container Tab`, 'info')
+          }}
+          onToggleBookmark={handleToggleBookmark}
+          isBookmarked={bookmarked}
+          onOpenBookmarksManager={() => togglePanel('bookmarks')}
+          showOtherBookmarks={showOtherBookmarks}
+          onToggleOtherBookmarks={() => setShowOtherBookmarks(v => !v)}
+          onToggleBookmarksToolbar={(state) => {
+            setBookmarksToolbarState(state)
+            setShowBookmarksBar(state === 'always')
+          }}
+          bookmarksToolbarState={bookmarksToolbarState}
+        />
+      )}
+
+      <ToastNotification toasts={toasts} onDismiss={removeToast} />
+    </div>
+  )
+}
